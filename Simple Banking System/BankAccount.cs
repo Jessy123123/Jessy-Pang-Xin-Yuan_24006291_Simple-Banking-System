@@ -2,7 +2,7 @@
 
 namespace Simple_Banking_System
 {
-    internal class BankAccount
+    public class BankAccount
     {
         public int accountNumber;
         public string accountHolderName;

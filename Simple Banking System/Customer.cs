@@ -2,11 +2,11 @@
 
 namespace Simple_Banking_System
 {
-    internal class Customer
+    public class Customer
     {
         private int customerID;
         private string customerName;
-        private int phoneNumber;
+        private string phoneNumber;
 
         public int CustomerID
         {
@@ -20,7 +20,7 @@ namespace Simple_Banking_System
             set { customerName = value; }
         }
 
-        public int PhoneNumber
+        public string PhoneNumber
         {
             get { return phoneNumber; }
             set { phoneNumber = value; }
@@ -28,9 +28,9 @@ namespace Simple_Banking_System
 
         public void displayCustomerInfo()
         {
-            Console.WriteLine("Customer ID: {0}", customerID);
-            Console.WriteLine("Customer Name: {0}", customerName);
-            Console.WriteLine("Phone Number: {0}", phoneNumber);
+            Console.WriteLine("Customer ID: {0}", CustomerID);
+            Console.WriteLine("Customer Name: {0}", CustomerName);
+            Console.WriteLine("Phone Number: {0}", PhoneNumber);
         }
     }
 }

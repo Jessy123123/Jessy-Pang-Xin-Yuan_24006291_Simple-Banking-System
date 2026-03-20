@@ -15,7 +15,7 @@ namespace Simple_Banking_System
             Console.Write("Please enter your name: ");
             customer.CustomerName = Console.ReadLine();
             Console.Write("Please enter your phone number: ");
-            customer.PhoneNumber = Convert.ToInt32(Console.ReadLine());
+            customer.PhoneNumber = Console.ReadLine();
 
             Console.WriteLine();
 

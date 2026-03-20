@@ -2,7 +2,7 @@
 
 namespace Simple_Banking_System
 {
-    internal class Transaction
+    public class Transaction
     {
         public int accountNumber;
         public string transactionType;
@@ -17,7 +17,7 @@ namespace Simple_Banking_System
             this.newBalance = newBalance;
         }
 
-        public double deposit(double amnount, double balance)
+        public double deposit(double amount, double balance)
         {
             transactionType = "Deposit";
             newBalance = amount + balance;
